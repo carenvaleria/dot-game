@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 1;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #1370fb 20px, transparent 1%) center,
+    linear-gradient(#1370fb 20px, transparent 1%) center, #3882e8;
+  background-size: 22px 22px;
+}
+
+#gameboard {
+  display: flex;
+  height: 1500px;
+  flex-direction: row;
+}
+#column-1 {
+  width: 50%;
+  height: 50%;
+}
+
+#column-2 {
+  width: 50%;
+  height: 50%;
+}
+
+#column-3 {
+  width: 50%;
+  height: 50%;
+}
+
+.footer {
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.start-btn {
+  font-size: 2em;
+  align-items: center;
+  background: #A3BCF9;
+  border-radius: 30px;
+}
+
+.header {
+  align-items: center;
+  position: absolute;
+  bottom: 650px;
+  right: 25%;
+  left: 50%;
+  margin-left: -75px;
+  font-size: 3em;
+  color: white;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
